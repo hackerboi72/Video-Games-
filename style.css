@@ -9,22 +9,26 @@ body{
 img
 {
   width:300px;
+    border-radius: 50%;
 } 
 
 h1{
   font-size:35px;
+     font-family: monospace;
 }
 
 p{
   font-size:25px;
   color:purple;
-  fot-weight:bold;
+  font-weight:bold;
+     font-family: monospace;
   
   
 }
 h2{
   font-size:20px;
-  color:#1A237E;
+  color:darkblue;
+   font-family: monospace;
 }
 .line{
   height:6px;
@@ -37,4 +41,25 @@ h2{
 #bio{
   font-size:18;
   text-align:center;
+}
+.menu{
+  list-style: none;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10px;
+  z-index: 10;
+  cursor: pointer;
+}
+.links{
+  float: left;
+  color: brown;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-right: 5px;
+  padding-bottom :5px;
+  font-family: monospace;
+  font-size: 30px;
+}
+.links:hover{
+  background-color: burlywood;
 }
