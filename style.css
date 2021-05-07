@@ -3,7 +3,7 @@ body{
   background:linear-gradient(
   
   #E1BEE7 0%,#90CAF9 100%);
-  background-repeat:no-repeat
+  background-repeat:no-repeat;
   
 }
 img
@@ -22,8 +22,6 @@ p{
   color:purple;
   font-weight:bold;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-  el
 }
 h2{
   font-size: 20px;
@@ -72,4 +70,14 @@ html {
 }
 .article:hover{
   color: blue;
+}
+.buttons {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
