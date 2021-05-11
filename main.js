@@ -18,3 +18,13 @@ function link4 () {
         location.href = "https://en.wikipedia.org/wiki/Neil_Armstrong#Life_after_Apollo";
         }
 }
+function windowalert() {
+    document.getElementById("lewis").onclick = function () {
+        window.alert("Lewis Hamilton");
+    }
+}
+function windowalert2() {
+    document.getElementById("max").onclick = function () {
+        window.alert("Max verstappen");
+    }
+};
